@@ -151,9 +151,9 @@ class GCN(nn.Module):
 
 
 class GCNModel(TorchModel):
-  """Model for Molecular Property Prediction Based on Thomas N. Kipf et al.
+  """Model for Molecular Property Prediction Based on GCN.
 
-  This model has the following features is an optimised version of the GCN which is used in our experiments.
+  This model is an optimised version of the GCN which is used in our experiments.
   The optimisation is in the hyperparameter values which are changed so as to get better regularisation.
 
   """
